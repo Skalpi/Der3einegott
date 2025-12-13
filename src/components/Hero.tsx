@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           Theologische Apologetik
         </span>
         <h1 className="text-4xl md:text-6xl font-serif font-bold text-stone-50 mb-6 leading-tight">
-          Der dreieinige Gott
+          Der dreieine Gott
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-xl text-slate-300 leading-relaxed font-light">
           Eine Sammlung biblischer Beweise für die Gottheit Jesu Christi und die Person des Heiligen Geistes.
