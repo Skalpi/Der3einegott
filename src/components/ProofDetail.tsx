@@ -52,11 +52,7 @@ const ProofDetail: React.FC = () => {
             Zurück zur Übersicht
           </button>
           
-          <div className="flex items-center gap-3 mb-4">
-            <span className="px-3 py-1 rounded-full bg-slate-800 border border-slate-700 text-amber-500 text-xs font-bold uppercase tracking-widest">
-              {proof.category}
-            </span>
-          </div>
+          {/* Category Marker removed here */}
           
           <h1 className="text-3xl md:text-5xl font-serif font-bold leading-tight mb-4">
             {proof.title}

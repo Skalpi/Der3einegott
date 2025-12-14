@@ -12,9 +12,7 @@ const Hero: React.FC = () => {
       
       {/* Content */}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 text-center">
-        <span className="inline-block py-1 px-3 rounded-full bg-slate-800 border border-slate-700 text-amber-500 text-xs font-semibold tracking-widest uppercase mb-6">
-          Theologische Apologetik
-        </span>
+        {/* Badge removed as requested */}
         <h1 className="text-4xl md:text-6xl font-serif font-bold text-stone-50 mb-6 leading-tight">
           Der dreieine Gott
         </h1>
