@@ -23,7 +23,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </div>
               <div>
                 <h1 className="text-xl font-bold tracking-tight font-serif">Christus ist Gott</h1>
-                <p className="text-xs text-slate-400 uppercase tracking-widest hidden sm:block">Biblische Apologetik</p>
+                <p className="text-xs text-slate-400 uppercase tracking-widest hidden sm:block">Biblisch belegt</p>
               </div>
             </Link>
 

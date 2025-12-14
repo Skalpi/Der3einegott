@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowDown } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -20,15 +19,9 @@ const Hero: React.FC = () => {
           Der dreieine Gott
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-xl text-slate-300 leading-relaxed font-light">
-          Eine Sammlung biblischer Beweise für die Gottheit Jesu Christi und die Person des Heiligen Geistes.
+          Eine Sammlung biblischer Beweise für die Gottheit Jesu Christi und die Person und Gottheit des Heiligen Geistes.
           Fundiert. Bibeltreu. Klar.
         </p>
-        
-        <div className="mt-12 flex justify-center">
-          <a href="#proofs" className="animate-bounce p-2 bg-slate-800 rounded-full text-slate-400 hover:text-white transition-colors">
-            <ArrowDown className="h-6 w-6" />
-          </a>
-        </div>
       </div>
     </div>
   );

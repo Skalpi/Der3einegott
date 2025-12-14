@@ -83,15 +83,7 @@ const ProofList: React.FC = () => {
               className="group flex flex-col bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden hover:shadow-xl hover:border-amber-200 transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="p-6 flex-grow">
-                <div className="flex items-center justify-between mb-4">
-                  <span className={`text-xs font-bold uppercase tracking-wider px-2 py-1 rounded-md ${
-                    proof.category === 'Jesus ist Gott' ? 'bg-blue-50 text-blue-700' :
-                    proof.category === 'Der Heilige Geist ist Gott' ? 'bg-purple-50 text-purple-700' :
-                    'bg-emerald-50 text-emerald-700'
-                  }`}>
-                    {proof.category === 'Jesus ist Gott' ? 'Christologie' : 
-                     proof.category === 'Der Heilige Geist ist Gott' ? 'Pneumatologie' : 'Theologie'}
-                  </span>
+                <div className="flex items-center justify-end mb-4">
                   <Book className="h-4 w-4 text-slate-300 group-hover:text-amber-500 transition-colors" />
                 </div>
                 
