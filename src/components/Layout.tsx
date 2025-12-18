@@ -35,6 +35,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <a href="#about" className="text-stone-300 hover:text-white hover:border-b-2 hover:border-amber-600 px-1 py-2 text-sm font-medium transition-all">
                 Über das Projekt
               </a>
+              <a href="https://posttenebras-lux.de/impressum/" className="text-stone-300 hover:text-white hover:border-b-2 hover:border-amber-600 px-1 py-2 text-sm font-medium transition-all">
+                Impressum
+              </a>
             </nav>
 
             {/* Mobile Menu Button */}
@@ -66,6 +69,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Über das Projekt
+              </a>
+              <a 
+                href="https://posttenebras-lux.de/impressum/"
+                className="block px-3 py-2 rounded-md text-base font-medium text-stone-300 hover:text-white hover:bg-slate-700"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Impressum
               </a>
             </div>
           </div>
@@ -100,7 +110,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div>
               <h3 className="text-stone-50 font-serif text-lg mb-4">Rechtliches</h3>
               <ul className="text-sm space-y-2">
-                <li><a href="#" className="hover:text-amber-600 transition-colors">Impressum</a></li>
+                <li><a href="https://posttenebras-lux.de/impressum/" className="hover:text-amber-600 transition-colors">Impressum</a></li>
                 <li><a href="#" className="hover:text-amber-600 transition-colors">Datenschutz</a></li>
               </ul>
             </div>
