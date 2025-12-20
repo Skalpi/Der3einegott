@@ -29,9 +29,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex space-x-8">
-              <Link to="/" className="text-stone-300 hover:text-white hover:border-b-2 hover:border-amber-600 px-1 py-2 text-sm font-medium transition-all">
-                Beweise
-              </Link>
+              <a href="https://posttenebras-lux.de/prophetien/" className="text-stone-300 hover:text-white hover:border-b-2 hover:border-amber-600 px-1 py-2 text-sm font-medium transition-all">
+                erfüllte Prophetie in Christus Jesus
+              </a>
               <a href="#about" className="text-stone-300 hover:text-white hover:border-b-2 hover:border-amber-600 px-1 py-2 text-sm font-medium transition-all">
                 Über das Projekt
               </a>
@@ -56,13 +56,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         {isMenuOpen && (
           <div className="md:hidden bg-slate-800 border-t border-slate-700">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <Link 
-                to="/" 
-                className="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-slate-700"
+              <a 
+                href="https://posttenebras-lux.de/prophetien/"
+                className="block px-3 py-2 rounded-md text-base font-medium text-stone-300 hover:text-white hover:bg-slate-700"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Übersicht
-              </Link>
+                erfüllte Prophetie in Christus Jesus
+              </a>
               <a 
                 href="#about"
                 className="block px-3 py-2 rounded-md text-base font-medium text-stone-300 hover:text-white hover:bg-slate-700"
@@ -94,8 +94,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div>
               <h3 className="text-stone-50 font-serif text-lg mb-4">Post Tenebras Lux</h3>
               <p className="text-sm leading-relaxed">
-                Diese Seite dient der theologischen Festigung des Glaubens an den dreieinigen Gott. 
-                Basierend auf der Heiligen Schrift und bewährten Auslegungen.
+                Diese Website ist zur Ehre Gottes, des in der Bibel offenbarten dreieinigen Gottes, erstellt und möchte den Glauben an ihn stärken, der unzählige Prophezeiungen und Verheißungen gegeben und erfüllt hat, gegründet auf dem Zeugnis der Heiligen Schrift.
               </p>
             </div>
             <div>
@@ -111,12 +110,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <h3 className="text-stone-50 font-serif text-lg mb-4">Rechtliches</h3>
               <ul className="text-sm space-y-2">
                 <li><a href="https://posttenebras-lux.de/impressum/" className="hover:text-amber-600 transition-colors">Impressum</a></li>
-                <li><a href="#" className="hover:text-amber-600 transition-colors">Datenschutz</a></li>
+                <li><a href="https://posttenebras-lux.de/datenschutzerklaerung/" className="hover:text-amber-600 transition-colors">Datenschutzerklärung</a></li>
               </ul>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-slate-800 text-center text-xs">
-            &copy; {new Date().getFullYear()} Post Tenebras Lux. Alle Rechte vorbehalten.
+            &copy; {new Date().getFullYear()} Post Tenebras Lux
           </div>
         </div>
       </footer>
