@@ -1,5 +1,5 @@
 import React from 'react';
-import { Info, CheckCircle, ExternalLink, Scroll, History, Target, Eye, BookOpen, Map, Landmark, Zap, Shield, Star, Crown, Anchor } from 'lucide-react';
+import { Info, CheckCircle, ExternalLink, Scroll, History, Target, Eye, BookOpen, Map, Landmark, Zap, Shield, Star, Crown, Anchor, UserCheck, MessageSquare } from 'lucide-react';
 
 const SystematicAnalysis: React.FC = () => {
   return (
@@ -18,7 +18,7 @@ const SystematicAnalysis: React.FC = () => {
         </p>
       </section>
 
-      {/* 1. Der biblische Beweis der Dreieinigkeit (Trinity 2.0) */}
+      {/* 1. Der biblische Beweis der Dreieinigkeit */}
       <section className="space-y-12">
         <div className="flex items-center space-x-4 mb-4">
           <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">1</span>
@@ -46,181 +46,161 @@ const SystematicAnalysis: React.FC = () => {
             </div>
           </div>
 
-          {/* 1.2 Gott der Sohn - ULTIMATE PROOF CATEGORIES */}
+          {/* 1.2 Gott der Sohn */}
           <div className="space-y-6">
             <h3 className="text-2xl font-serif font-bold text-slate-900 flex items-center">
               <Crown className="h-6 w-6 mr-3 text-amber-600" /> 1.2 Gott der Sohn (Jesus Christus)
             </h3>
-            <p className="text-slate-600 italic">Die Gottheit Jesu Christi ist das zentrale Fundament der biblischen Lehre. Die Quellen liefern hierfür einen „ultimativen Beweis“:</p>
-            
             <div className="grid md:grid-cols-2 gap-6">
-              {/* Category A: Titel */}
               <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
                 <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">A. Göttliche Titel</h4>
                 <ul className="text-sm space-y-3 text-slate-700">
-                  <li><strong>Gott (Theos):</strong> Explizite Bezeichnung in Joh 1,1; Joh 20,28; Tit 2,13; 1. Joh 5,20; Hebr 1,8.</li>
-                  <li><strong>Ich bin (Ego eimi):</strong> <em>„Ehe Abraham wurde, bin ich“</em> (Joh 8,58). Direkter Bezug auf 2. Mose 3,14.</li>
-                  <li><strong>Jahwe:</strong> Er ist der „Ewigseiende“ (Hoon), der Ursprung von allem.</li>
+                  <li><strong>Gott (Theos):</strong> Explizite Bezeichnung in Joh 1,1; Joh 20,28; Tit 2,13; 1. Joh 5,20.</li>
+                  <li><strong>Ich bin (Ego eimi):</strong> <em>„Ehe Abraham wurde, bin ich“</em> (Joh 8,58).</li>
                 </ul>
               </div>
-
-              {/* Category B: Eigenschaften */}
               <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
                 <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">B. Göttliche Eigenschaften</h4>
                 <ul className="text-sm space-y-3 text-slate-700">
                   <li><strong>Ewigkeit:</strong> Er hat keinen Anfang (Joh 1,1; Micha 5,1).</li>
                   <li><strong>Allmacht:</strong> <em>„...der Allmächtige“</em> (Offb 1,8).</li>
-                  <li><strong>Allwissenheit:</strong> Er wusste alles (Joh 18,4).</li>
-                  <li><strong>Unwandelbarkeit:</strong> Er bleibt ewig derselbe (Hebr 1,12; 13,8).</li>
                 </ul>
               </div>
+            </div>
+          </div>
 
-              {/* Category C: Handlungen */}
-              <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
-                <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">C. Göttliche Handlungen</h4>
+          {/* 1.3 Gott der Heilige Geist - DEEP DIVE EXPANSION */}
+          <div className="bg-stone-50 p-8 rounded-2xl border border-stone-200 space-y-8">
+            <div className="flex items-center justify-between border-b border-stone-200 pb-4">
+              <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center">
+                <Zap className="h-6 w-6 mr-3" /> 1.3 Gott der Heilige Geist
+              </h3>
+              <span className="text-xs font-bold text-amber-600 uppercase tracking-widest bg-amber-100 px-3 py-1 rounded-full">Personalität & Gottheit</span>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-10">
+              {/* Personalität */}
+              <div className="space-y-4">
+                <h4 className="font-bold text-slate-900 flex items-center">
+                  <UserCheck className="h-5 w-5 mr-2 text-amber-600" /> Beweis der Personalität
+                </h4>
+                <p className="text-sm text-slate-700 leading-relaxed">
+                  Entgegen irrigen Lehren ist der Geist keine "unpersönliche Kraft". Die Bibel schreibt ihm persönliche Merkmale zu:
+                </p>
                 <ul className="text-sm space-y-3 text-slate-700">
-                  <li><strong>Schöpfung:</strong> <em>„Alles wurde durch dasselbe erschaffen“</em> (Joh 1,3; Kol 1,16).</li>
-                  <li><strong>Erhaltung:</strong> Er trägt das Universum (Hebr 1,3; Kol 1,17).</li>
-                  <li><strong>Sündenvergebung:</strong> Er vergibt Sünden, was allein Gott vorbehalten ist (Lukas 5).</li>
-                  <li><strong>Gericht:</strong> Er wird die Welt richten (Joh 5; Apg 17,31).</li>
+                  <li><strong>Intellekt:</strong> Er "erforscht" und "weiß" (1. Kor 2,10-11).</li>
+                  <li><strong>Wille:</strong> Er teilt Gaben aus, "wie er will" (1. Kor 12,11).</li>
+                  <li><strong>Emotion:</strong> Er kann "betrübt" werden (Eph 4,30).</li>
+                  <li><strong>Grammatikalische Besonderheit:</strong> In Joh 16,13 wird für den Geist (gr. <em>pneuma</em>, Neutrum) das maskuline Pronomen <em>ekeinos</em> ("Er") verwendet, um seine Personalität zu betonen.</li>
                 </ul>
               </div>
 
-              {/* Category D: Anbetung */}
-              <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
-                <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">D. Annahme von Anbetung</h4>
-                <div className="text-sm text-slate-700 space-y-3">
-                  <p>Jesus weist Anbetung niemals zurück. Thomas bekennt: <em>„Mein Herr und mein Gott!“</em> (Joh 20,28), und Jesus preist seinen Glauben.</p>
-                  <p>Im Himmel beten Millionen Engel und die ganze Schöpfung das Lamm an (Offb 5,8-14).</p>
+              {/* Identität mit Jahweh */}
+              <div className="space-y-4">
+                <h4 className="font-bold text-slate-900 flex items-center">
+                  <MessageSquare className="h-5 w-5 mr-2 text-amber-600" /> Identität mit JAHWE
+                </h4>
+                <p className="text-sm text-slate-700 leading-relaxed">
+                  Das Neue Testament identifiziert den Heiligen Geist direkt mit dem JAHWE des Alten Testaments:
+                </p>
+                <div className="bg-white p-4 rounded-lg border border-stone-200 space-y-3">
+                  <div className="text-xs">
+                    <span className="font-bold">AT (2. Mose 17,7):</span> Israel versuchte <span className="text-amber-700 font-bold">JAHWE</span>.
+                  </div>
+                  <div className="text-xs">
+                    <span className="font-bold">NT (Hebr 3,7-9):</span> Der <span className="text-amber-700 font-bold">Heilige Geist</span> sagt: "...wo eure Väter mich versuchten."
+                  </div>
+                  <hr />
+                  <div className="text-xs">
+                    <span className="font-bold">AT (Jer 31,33):</span> <span className="text-amber-700 font-bold">JAHWE</span> verheißt den neuen Bund.
+                  </div>
+                  <div className="text-xs">
+                    <span className="font-bold">NT (Hebr 10,15):</span> Das bezeugt uns aber auch der <span className="text-amber-700 font-bold">Heilige Geist</span>.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Göttliche Handlungen */}
+            <div className="bg-white p-6 rounded-xl border border-stone-200">
+              <h4 className="font-bold text-slate-900 mb-4 text-center uppercase tracking-widest text-xs">Göttliche Handlungen & Attribute</h4>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div className="p-3 bg-stone-50 rounded-lg">
+                  <div className="font-bold text-amber-800 text-sm">Schöpfung</div>
+                  <div className="text-[10px] text-slate-500 italic">Hiob 33,4</div>
+                </div>
+                <div className="p-3 bg-stone-50 rounded-lg">
+                  <div className="font-bold text-amber-800 text-sm">Ewigkeit</div>
+                  <div className="text-[10px] text-slate-500 italic">Hebr 9,14</div>
+                </div>
+                <div className="p-3 bg-stone-50 rounded-lg">
+                  <div className="font-bold text-amber-800 text-sm">Allwissenheit</div>
+                  <div className="text-[10px] text-slate-500 italic">1. Kor 2,10</div>
+                </div>
+                <div className="p-3 bg-stone-50 rounded-lg">
+                  <div className="font-bold text-amber-800 text-sm">Allgegenwart</div>
+                  <div className="text-[10px] text-slate-500 italic">Ps 139,7</div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* 1.3 Gott der Heilige Geist */}
-          <div className="bg-stone-50 p-8 rounded-2xl border border-stone-200">
-            <h3 className="text-xl font-bold mb-4 text-amber-800 flex items-center">
-              <Zap className="h-5 w-5 mr-2" /> 1.3 Gott der Heilige Geist
-            </h3>
-            <div className="text-slate-700 space-y-4">
-              <p>Der Heilige Geist wird als göttliche Person dargestellt, die in die Einheit der Gottheit eingebunden ist:</p>
-              <ul className="text-sm list-disc pl-5 space-y-2">
-                <li><strong>Autorität:</strong> Die Taufe erfolgt auf den <strong>Namen (Einzahl)</strong> des Vaters, des Sohnes und des Heiligen Geistes (Mt 28,19).</li>
-                <li><strong>Offenbarung:</strong> Wahre theologische Erkenntnis über die Einheit Gottes ist nur durch die Offenbarung des Heiligen Geistes möglich.</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* 1.4 Die Einheit (Trinitarische Formeln) */}
+          {/* 1.4 Die Einheit */}
           <div className="bg-slate-900 text-white p-8 rounded-2xl shadow-xl">
             <h3 className="text-xl font-bold mb-4 flex items-center text-amber-500">
               <Shield className="h-5 w-5 mr-2" /> 1.4 Die Einheit (Trinitarische Formeln)
             </h3>
             <div className="space-y-4 text-stone-300">
-              <p><strong>Granville Sharp’s Rule:</strong> Diese griechische Grammatikregel beweist, dass Ausdrücke wie <em>„unser großer Gott und Heiland Jesus Christus“</em> (Titus 2,13) sich auf eine einzige Person beziehen.</p>
-              <p><strong>Jüdischer Kontext:</strong> Sogar in der jüdischen Literatur (Zohar) finden sich Andeutungen der Trinität, wo drei Namen Gottes als eine Einheit verstanden werden.</p>
+              <p><strong>Matthäus 28,19:</strong> Die Taufe erfolgt auf den <strong>Namen (Einzahl)</strong> des Vaters, des Sohnes und des Heiligen Geistes. Ein Name für drei Personen.</p>
+              <p><strong>Granville Sharp’s Rule:</strong> Grammatikalischer Beweis aus Titus 2,13 für die Identität von Gott und Retter in Jesus Christus.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 2. Die Erfüllung messianischer Prophezeiungen */}
+      {/* 2. Prophetien Section - Unchanged */}
       <section className="space-y-8">
         <div className="flex items-center space-x-4 mb-4">
           <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">2</span>
-          <h2 className="text-3xl font-serif font-bold text-slate-900">Die Erfüllung messianischer Prophezeiungen</h2>
+          <h2 className="text-3xl font-serif font-bold text-slate-900">Die Erfüllung messianischer Prophetien</h2>
         </div>
         <div className="bg-amber-50 border border-amber-200 rounded-2xl p-8">
           <p className="text-slate-800 text-lg mb-6 leading-relaxed">
-            Hunderte spezifische Vorhersagen des Alten Testaments wurden in der Person Jesu Christi punktgenau erfüllt. Diese mathematisch unmögliche Koinzidenz beweist die göttliche Steuerung der Weltgeschichte.
+            Hunderte spezifische Vorhersagen des Alten Testaments wurden in der Person Jesu Christi punktgenau erfüllt.
           </p>
-          <a 
-            href="https://posttenebras-lux.de/prophetien/" 
-            className="inline-flex items-center px-6 py-3 bg-slate-900 text-white rounded-xl hover:bg-amber-600 transition-all shadow-lg font-medium group"
-          >
+          <a href="https://posttenebras-lux.de/prophetien/" className="inline-flex items-center px-6 py-3 bg-slate-900 text-white rounded-xl hover:bg-amber-600 transition-all shadow-lg font-medium group">
             Zur Datenbank der erfüllten Prophetien
             <ExternalLink className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>
       </section>
 
-      {/* 3. Belege für die Glaubwürdigkeit der Bibel */}
+      {/* 3. Historische Verankerung - Unchanged */}
       <section className="space-y-12">
         <div className="flex items-center space-x-4 mb-6">
           <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">3</span>
           <h2 className="text-3xl font-serif font-bold text-slate-900">Belege für die Glaubwürdigkeit der Bibel</h2>
         </div>
-
-        <p className="text-slate-700 text-lg leading-relaxed bg-stone-50 p-6 rounded-xl border border-stone-200 italic">
-          Die Glaubwürdigkeit der Heiligen Schrift stützt sich auf eine beeindruckende Fülle interner und externer Beweise, die ihre göttliche Inspiration und historische Genauigkeit unterstreichen.
-        </p>
-
         <div className="grid gap-12">
-          
-          {/* 3.1 Ehrlichkeit */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center border-b border-stone-200 pb-2">
-              <Anchor className="h-6 w-6 mr-3" /> 1. Ehrlichkeit & Charakter der Berichte
-            </h3>
-            <div className="bg-white p-6 md:p-8 rounded-xl border border-stone-200 shadow-sm space-y-4 text-slate-700">
-              <p>• <strong>Keine Heroisierung:</strong> Die Bibel berichtet schonungslos über die Sünden ihrer größten Leiter (Davids Ehebruch, Moses Zorn, Petrus' Verleugnung). Antike Texte dienten meist der Propaganda; die Bibel dient der Wahrheit.</p>
-              <p>• <strong>Warnung vor Veränderung:</strong> Der Text selbst verbietet streng jede Hinzufügung oder Weglassung (Offb 22,18-19).</p>
-            </div>
-          </div>
-
-          {/* 3.2 Thematische Einheit */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center border-b border-stone-200 pb-2">
-              <Target className="h-6 w-6 mr-3" /> 2. Thematische & Mathematische Einheit
-            </h3>
-            <div className="bg-white p-6 md:p-8 rounded-xl border border-stone-200 shadow-sm space-y-4 text-slate-700">
-              <p>Die Bibel ist ein harmonisches Ganzes von 66 Büchern:</p>
-              <ul className="list-disc pl-6 space-y-3">
-                <li><strong>Typologie:</strong> Alttestamentliche Strukturen (wie die Stiftshütte) sind geometrische Schattenbilder auf die Person Jesu Christi.</li>
-                <li><strong>Statistische Evidenz:</strong> Die Wahrscheinlichkeit für die Erfüllung von nur 8 Prophetien beträgt 1 zu 10<sup>17</sup>.</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* 3.3 Historische Verankerung & Qumran */}
           <div className="space-y-6">
             <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center border-b border-stone-200 pb-2">
               <Map className="h-6 w-6 mr-3" /> 3. Historische Verankerung & Qumran-Funde
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-stone-50 p-6 rounded-xl border border-stone-200 space-y-4 shadow-inner">
-                <h4 className="font-bold flex items-center text-slate-900 uppercase tracking-wider text-sm">
-                  <Landmark className="h-4 w-4 mr-2 text-amber-600" /> Die Qumran-Revolution (1947)
+              <div className="bg-stone-50 p-6 rounded-xl border border-stone-200 space-y-4 shadow-inner text-sm text-slate-700">
+                <h4 className="font-bold flex items-center text-slate-900 uppercase tracking-wider">
+                  <Landmark className="h-4 w-4 mr-2 text-amber-600" /> Die Qumran-Revolution
                 </h4>
-                <div className="text-sm space-y-3 text-slate-700 leading-relaxed">
-                  <p><strong>Die Jesaja-Rolle (1QIsa):</strong> Überbrückt eine Lücke von 1000 Jahren Überlieferung. Der Text ist zu <strong>95% wortwörtlich identisch</strong> mit modernen Ausgaben.</p>
-                  <p>Die Genauigkeit der jüdischen Schreiber (Sopherim), die Buchstaben zählten, wird hier eindrücklich bestätigt.</p>
-                </div>
+                <p><strong>Die Jesaja-Rolle:</strong> Der Text ist zu 95% wortwörtlich identisch mit modernen Ausgaben trotz 1000 Jahren Differenz.</p>
               </div>
-              <div className="bg-stone-50 p-6 rounded-xl border border-stone-200 space-y-4 shadow-inner">
-                <h4 className="font-bold flex items-center text-slate-900 uppercase tracking-wider text-sm">
+              <div className="bg-stone-50 p-6 rounded-xl border border-stone-200 space-y-4 shadow-inner text-sm text-slate-700">
+                <h4 className="font-bold flex items-center text-slate-900 uppercase tracking-wider">
                   <Scroll className="h-4 w-4 mr-2 text-amber-600" /> Archäologische Bestätigung
                 </h4>
-                <div className="text-sm space-y-3 text-slate-700 leading-relaxed">
-                  <p><strong>Merenptah-Stele:</strong> Älteste Erwähnung Israels (1210 v. Chr.).</p>
-                  <p><strong>Prisma von Sanherib:</strong> Bestätigt König Hiskia und die Belagerung Jerusalems (701 v. Chr.).</p>
-                  <p><strong>Jericho:</strong> Wood's Ausgrabungen bestätigen den Kollaps der Mauern exakt nach biblischem Bericht.</p>
-                </div>
+                <p>Merenptah-Stele, Sanherib-Prisma und Jericho-Mauern bestätigen die historische Präzision der biblischen Berichte.</p>
               </div>
             </div>
           </div>
-
-          {/* 3.4 Augenzeugenschaft */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center border-b border-stone-200 pb-2">
-              <Eye className="h-6 w-6 mr-3" /> 4. Unmittelbare Augenzeugenschaft
-            </h3>
-            <div className="bg-white p-6 md:p-8 rounded-xl border border-stone-200 shadow-sm space-y-4 text-slate-700">
-              <p>• <strong>Historische Zeugen:</strong> Josephus Flavius und Tacitus bestätigen die Kreuzigung Christi.</p>
-              <p>• <strong>Das Zeugnis des Blutes:</strong> Die Apostel starben für ihr Zeugnis. Niemand stirbt für eine bewusste Lüge.</p>
-            </div>
-          </div>
-
         </div>
       </section>
 

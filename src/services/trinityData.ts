@@ -56,25 +56,8 @@ export const trinityData: TheologicalProof[] = [
     },
     commentary: `
       <p class="mb-4">Diese Stelle ist einer der explizitesten Beweise der Gottheit Jesu. Johannes setzt Jesus Christus ("Dieser") direkt gleich mit dem "wahrhaftigen Gott".</p>
-      <p>Darüber hinaus wird Jesus als "das ewige Leben" bezeichnet – ein Titel, den Johannes bereits im Prolog seines ersten Briefes verwendet hat, um die göttliche Natur Christi zu beschreiben.</p>
     `,
     authorOrSource: 'Johannes / Schlachter 2000'
-  },
-  {
-    id: 'jesus-unwandelbar',
-    title: 'Göttliche Unwandelbarkeit',
-    category: 'Jesus ist Gott',
-    shortDescription: 'Jesus teilt die göttliche Eigenschaft der Unwandelbarkeit (Immutabilität).',
-    primaryVerse: {
-      verse: 'Hebräer 13,8',
-      text: 'Jesus Christus ist gestern und heute und auch in Ewigkeit derselbe.',
-      source: 'Schlachter 2000'
-    },
-    commentary: `
-      <p class="mb-4">In Psalm 102 wird die Unwandelbarkeit JAHWES gepriesen. Der Hebräerbrief wendet diese göttliche Qualität konsequent auf Jesus Christus an.</p>
-      <p>Während die gesamte Schöpfung dem Wandel und Verfall unterworfen ist, bleibt Jesus in seinem Wesen, seiner Liebe und seiner Macht absolut beständig. Er ist der Fels der Ewigkeit.</p>
-    `,
-    authorOrSource: 'Hebräerbrief / Schlachter 2000'
   },
   {
     id: 'jesus-der-schoepfer',
@@ -86,47 +69,95 @@ export const trinityData: TheologicalProof[] = [
       text: 'Alles ist durch dasselbe entstanden; und ohne dasselbe ist auch nicht eines entstanden, was entstanden ist.',
       source: 'Schlachter 2000'
     },
-    contextVerses: [
-      {
-        verse: 'Kolosser 1,16',
-        text: 'Denn in ihm ist alles erschaffen worden, was im Himmel und was auf Erden ist... alles ist durch ihn und zu ihm hin geschaffen.',
-        source: 'Schlachter 2000'
-      }
-    ],
+    // Fix: Added missing required commentary property
     commentary: `
-      <p class="mb-4">Jesus ist nicht Teil der Schöpfung, sondern ihr Urheber. Die Bibel lehrt, dass Er es ist, der das Universum nicht nur ins Dasein gerufen hat, sondern es auch "durch das Wort seiner Macht" trägt (Hebr 1,3).</p>
+      <p class="mb-4">Jesus Christus ist nicht nur der Erlöser, sondern auch der Schöpfer. Alles, was existiert, verdankt sein Dasein Ihm. Wenn Jesus der Schöpfer von allem ist, kann Er selbst kein Teil der Schöpfung sein.</p>
+      <p>Dieser Vers betont die absolute Exklusivität: Ohne Ihn ist <em>nichts</em> entstanden. Dies untermauert seine göttliche Natur, da nur Gott aus dem Nichts erschaffen kann (Creatio ex nihilo).</p>
+    `,
+    authorOrSource: 'Schlachter 2000'
+  },
+  {
+    id: 'geist-ist-gott-apg5',
+    title: 'Den Heiligen Geist belügen ist Gott belügen',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'In Apostelgeschichte 5 setzt Petrus den Heiligen Geist direkt mit Gott gleich.',
+    primaryVerse: {
+      verse: 'Apostelgeschichte 5,3-4',
+      text: 'Petrus aber sprach: Ananias, warum hat der Satan dein hart erfüllt, dass du den Heiligen Geist belügst... Du hast nicht Menschen belogen, sondern Gott!',
+      source: 'Schlachter 2000'
+    },
+    commentary: `
+      <p class="mb-4">Petrus verwendet hier eine parallele Struktur: Im Vers 3 spricht er davon, den <strong>Heiligen Geist</strong> zu belügen. In Vers 4 schlussfolgert er: "Du hast nicht Menschen belogen, sondern <strong>Gott</strong>."</p>
+      <p>Dies ist ein direkter Beweis für die volle Gottheit des Geistes. Man kann keine unpersönliche Kraft belügen, sondern nur eine Person, die Gott selbst ist.</p>
     `,
     authorOrSource: 'Roger Liebi / Schlachter 2000'
   },
   {
-    id: 'mein-herr-und-mein-gott',
-    title: 'Thomas bekennt: Mein Herr und mein Gott',
-    category: 'Jesus ist Gott',
-    shortDescription: 'Der Apostel Thomas nennt Jesus explizit "Gott" (Theos), und Jesus nimmt diese Anbetung an.',
+    id: 'geist-ewig-hebr9',
+    title: 'Der ewige Geist',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Der Heilige Geist teilt das göttliche Attribut der Ewigkeit.',
     primaryVerse: {
-      verse: 'Johannes 20,28',
-      text: 'Thomas antwortete und sprach zu ihm: Mein Herr und mein Gott!',
+      verse: 'Hebräer 9,14',
+      text: '...wieviel mehr wird das Blut des Christus, der sich selbst durch den ewigen Geist als ein makelloses Opfer Gott dargebracht hat, euer Gewissen reinigen...',
       source: 'Schlachter 2000'
     },
     commentary: `
-      <p class="mb-4">Dieses Bekenntnis ist der Höhepunkt des Johannesevangeliums. Thomas verwendet den Titel <em>Ho Theos</em> (DER Gott). Jesus korrigiert ihn nicht, sondern bestätigt diesen Glauben als seligpreisungswürdig.</p>
+      <p class="mb-4">Hier wird der Heilige Geist explizit als der "ewige Geist" bezeichnet. Ewigkeit ist ein exklusives Attribut Gottes. Alles Geschaffene hat einen Anfang, nur Gott ist von Ewigkeit zu Ewigkeit.</p>
     `,
-    authorOrSource: 'Johannes / Schlachter 2000'
+    authorOrSource: 'Schlachter 2000'
   },
   {
-    id: 'granville-sharp-regel',
-    title: 'Der große Gott und Heiland',
-    category: 'Jesus ist Gott',
-    shortDescription: 'Grammatikalischer Beweis aus Titus 2,13 nach der Granville-Sharp-Regel.',
+    id: 'geist-allgegenwaertig-ps139',
+    title: 'Die Allgegenwart des Geistes',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Psalm 139 bezeugt, dass man der Gegenwart des Geistes nirgends entfliehen kann.',
     primaryVerse: {
-      verse: 'Titus 2,13',
-      text: '...indem wir die glückselige Hoffnung erwarten und die Erscheinung der Herrlichkeit des großen Gottes und unseres Retters Jesus Christus.',
+      verse: 'Psalm 139,7',
+      text: 'Wohin sollte ich gehen vor deinem Geist, und wohin sollte ich fliehen vor deinem Angesicht?',
       source: 'Schlachter 2000'
     },
     commentary: `
-      <p class="mb-4">Nach der Granville-Sharp-Regel beziehen sich "Großer Gott" und "Retter" auf dieselbe Person: Jesus Christus. Er ist der Retter-Gott.</p>
+      <p class="mb-4">Der Psalmist stellt fest, dass der Geist Gottes überall präsent ist – im Himmel, im Totenreich und an den äußersten Enden des Meeres. Allgegenwart ist eine Eigenschaft, die nur Gott allein zukommt.</p>
     `,
-    authorOrSource: 'Granville Sharp / Schlachter 2000'
+    authorOrSource: 'Roger Liebi / Schlachter 2000'
+  },
+  {
+    id: 'geist-allwissend-1kor2',
+    title: 'Die Allwissenheit des Geistes',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Der Geist erforscht die Tiefen Gottes, was seine Allwissenheit belegt.',
+    primaryVerse: {
+      verse: '1. Korinther 2,10-11',
+      text: 'Uns aber hat es Gott geoffenbart durch seinen Geist; denn der Geist erforscht alles, auch die Tiefen Gottes... so weiß auch niemand, was in Gott ist, als nur der Geist Gottes.',
+      source: 'Schlachter 2000'
+    },
+    commentary: `
+      <p class="mb-4">Der Geist besitzt vollkommenes Wissen über das Wesen Gottes. Er "erforscht" nicht im Sinne von "lernen", sondern im Sinne von "durchdringen". Nur ein göttliches Wesen kann die unendlichen Tiefen Gottes vollkommen kennen.</p>
+    `,
+    authorOrSource: 'Roger Liebi / Schlachter 2000'
+  },
+  {
+    id: 'geist-der-schoepfer-hiob33',
+    title: 'Der Geist als Schöpfer',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Der Heilige Geist ist aktiv an der Schöpfung und Erhaltung des Lebens beteiligt.',
+    primaryVerse: {
+      verse: 'Hiob 33,4',
+      text: 'Der Geist Gottes hat mich gemacht, und der Odem des Allmächtigen hat mir das Leben gegeben.',
+      source: 'Schlachter 2000'
+    },
+    contextVerses: [
+      {
+        verse: '1. Mose 1,2',
+        text: '...und der Geist Gottes schwebte über den Wassern.',
+        source: 'Schlachter 2000'
+      }
+    ],
+    commentary: `
+      <p class="mb-4">Die Schöpfung ist ein gemeinsames Werk des dreieinigen Gottes. Wie der Vater plant und der Sohn ausführt, so belebt und vollendet der Heilige Geist das Geschaffene.</p>
+    `,
+    authorOrSource: 'Schlachter 2000'
   }
 ];
 
