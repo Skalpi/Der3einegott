@@ -1,5 +1,5 @@
 import React from 'react';
-import { Info, CheckCircle, ExternalLink, Scroll, History, Target, Eye, BookOpen, Map, Landmark, Zap, Shield } from 'lucide-react';
+import { Info, CheckCircle, ExternalLink, Scroll, History, Target, Eye, BookOpen, Map, Landmark, Zap, Shield, Star, Crown, Anchor } from 'lucide-react';
 
 const SystematicAnalysis: React.FC = () => {
   return (
@@ -14,65 +14,111 @@ const SystematicAnalysis: React.FC = () => {
           </h2>
         </div>
         <p className="text-slate-700 leading-relaxed text-lg italic border-l-4 border-amber-500 pl-6 py-2">
-          Diese systematische Analyse legt dar, wie drei fundamentale Säulen des christlichen Glaubens – die trinitarische Natur Gottes, die Erfüllung messianischer Prophetie in Jesus Christus und die historische Glaubwürdigkeit der Heiligen Schrift – auf einem Fundament aus biblischer Offenbarung, historischer Evidenz und erfüllter Prophetie ruhen.
+          Die Heilige Schrift offenbart Gott nicht als isolierte Monade, sondern als ein Wesen in drei Personen. Diese Lehre der Dreieinigkeit zieht sich durch das gesamte Wort Gottes und ist für das christliche Heil entscheidend.
         </p>
       </section>
 
-      {/* 1. Der biblische Beweis der Dreieinigkeit */}
-      <section className="space-y-8">
+      {/* 1. Der biblische Beweis der Dreieinigkeit (Trinity 2.0) */}
+      <section className="space-y-12">
         <div className="flex items-center space-x-4 mb-4">
-          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold">1</span>
-          <h2 className="text-3xl font-serif font-bold text-slate-900">Der biblische Beweis der Dreieinigkeit</h2>
+          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">1</span>
+          <h2 className="text-3xl font-serif font-bold text-slate-900">Der biblische Beweis der Dreieinigkeit (Trinität)</h2>
         </div>
 
-        <div className="grid gap-8">
-          <div className="bg-stone-50 p-6 rounded-xl border border-stone-200">
-            <h3 className="text-xl font-bold mb-3 text-amber-800">1.1. Einleitende Analyse der Trinitätslehre</h3>
-            <p className="text-slate-700">
-              Gott ist ein Wesen, das in drei Personen existiert. Die Bibel lehrt keinen Tritheismus (drei Götter), sondern die Einheit des Wesens bei gleichzeitiger Unterscheidbarkeit der Personen. Ein Schlüsselbegriff ist hier <em>Echad</em> (Einheit in Vielfalt), wie es im Schema Israel (5. Mose 6,4) angedeutet wird.
-            </p>
-          </div>
-
-          <div className="bg-white p-6 rounded-xl border border-stone-200 shadow-sm">
-            <h3 className="text-xl font-bold mb-4 text-amber-800">1.2. Die Gottheit des Sohnes, Jesus Christus</h3>
-            <div className="space-y-4 text-slate-700">
-              <p>Jesus Christus beansprucht göttliche Privilegien: Sündenvergebung (Markus 2,5), Herrschaft über den Sabbat und das Recht auf Anbetung. In der Granville-Sharp-Regel (Titus 2,13) wird er explizit als „unser großer Gott und Heiland“ bezeichnet.</p>
-              <p>Seine Werke sind Schöpferwerke: „Ohne ihn ist nicht eines geworden“ (Joh 1,3). Er ist der Erhalter, der alle Dinge durch das Wort seiner Macht trägt (Hebr 1,3).</p>
-            </div>
-          </div>
-
-          {/* Expanded Holy Spirit Section */}
-          <div className="bg-stone-50 p-8 rounded-xl border border-stone-200 space-y-6">
-            <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center">
-              <Zap className="h-6 w-6 mr-3" /> 1.3. Die Gottheit und Personalität des Heiligen Geistes
+        <div className="space-y-10">
+          
+          {/* 1.1 Gott der Vater */}
+          <div className="bg-stone-50 p-6 md:p-8 rounded-2xl border border-stone-200 shadow-sm">
+            <h3 className="text-xl font-bold mb-4 text-amber-800 flex items-center">
+              <Star className="h-5 w-5 mr-2" /> 1.1 Gott der Vater
             </h3>
             <div className="grid md:grid-cols-2 gap-6 text-slate-700">
-              <div className="space-y-4">
-                <h4 className="font-bold text-slate-900 border-b pb-1">Beweis der Personalität</h4>
-                <p className="text-sm leading-relaxed">Der Heilige Geist ist keine unpersönliche Energie (wie Strom), sondern eine Person mit:</p>
-                <ul className="text-sm list-disc pl-5 space-y-1">
-                  <li><strong>Intellekt:</strong> Er erforscht die Tiefen Gottes und weiß, was in Gott ist (1. Kor 2,10-11).</li>
-                  <li><strong>Wille:</strong> Er teilt Gaben aus, „wie er will“ (1. Kor 12,11).</li>
-                  <li><strong>Emotion:</strong> Er kann betrübt werden (Eph 4,30).</li>
+              <div className="space-y-3">
+                <p>Gott der Vater wird in den Quellen explizit als Gott und Schöpfer ausgewiesen:</p>
+                <ul className="text-sm list-disc pl-5 space-y-2">
+                  <li><strong>Identifikation:</strong> In Johannes 1,1 wird das Wort (Jesus) als „bei Gott“ (dem Vater) beschrieben.</li>
+                  <li><strong>Vaterschaft:</strong> Jesaja 63 offenbart den HERRN bereits im AT: <em>„Denn du bist unser Vater...“</em> (Schlachter 2000).</li>
                 </ul>
               </div>
-              <div className="space-y-4">
-                <h4 className="font-bold text-slate-900 border-b pb-1">Identität mit Jahweh</h4>
-                <p className="text-sm leading-relaxed">Neutestamentliche Autoren identifizieren den Geist direkt mit dem Gott des Alten Testaments:</p>
-                <ul className="text-sm list-disc pl-5 space-y-1">
-                  <li>In <strong>Exodus 17,7</strong> wird gesagt, dass Israel <strong>Jahweh</strong> versuchte.</li>
-                  <li>In <strong>Hebräer 3,7-9</strong> zitiert der Autor dies und sagt: „...wie der <strong>Heilige Geist</strong> spricht“.</li>
-                  <li>Den Geist zu belügen, bedeutet Gott zu belügen (Apg 5,3-4).</li>
-                </ul>
+              <div className="bg-white p-4 rounded-lg border border-stone-100 text-sm italic italic">
+                „Von dem Sohn aber [spricht der Vater]: Dein Thron, o Gott, währt von Ewigkeit zu Ewigkeit...“ (Hebräer 1,8, Schlachter 2000)
               </div>
             </div>
-            <div className="bg-white p-4 rounded-lg border border-stone-200 mt-4">
-              <p className="text-sm font-semibold text-amber-900">Göttliche Attribute des Geistes:</p>
-              <div className="grid grid-cols-3 gap-2 mt-2 text-xs text-slate-600">
-                <div className="bg-stone-100 p-2 rounded text-center"><strong>Ewigkeit</strong> (Hebr 9,14)</div>
-                <div className="bg-stone-100 p-2 rounded text-center"><strong>Allwissenheit</strong> (1. Kor 2,10)</div>
-                <div className="bg-stone-100 p-2 rounded text-center"><strong>Allgegenwart</strong> (Ps 139,7)</div>
+          </div>
+
+          {/* 1.2 Gott der Sohn - ULTIMATE PROOF CATEGORIES */}
+          <div className="space-y-6">
+            <h3 className="text-2xl font-serif font-bold text-slate-900 flex items-center">
+              <Crown className="h-6 w-6 mr-3 text-amber-600" /> 1.2 Gott der Sohn (Jesus Christus)
+            </h3>
+            <p className="text-slate-600 italic">Die Gottheit Jesu Christi ist das zentrale Fundament der biblischen Lehre. Die Quellen liefern hierfür einen „ultimativen Beweis“:</p>
+            
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* Category A: Titel */}
+              <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
+                <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">A. Göttliche Titel</h4>
+                <ul className="text-sm space-y-3 text-slate-700">
+                  <li><strong>Gott (Theos):</strong> Explizite Bezeichnung in Joh 1,1; Joh 20,28; Tit 2,13; 1. Joh 5,20; Hebr 1,8.</li>
+                  <li><strong>Ich bin (Ego eimi):</strong> <em>„Ehe Abraham wurde, bin ich“</em> (Joh 8,58). Direkter Bezug auf 2. Mose 3,14.</li>
+                  <li><strong>Jahwe:</strong> Er ist der „Ewigseiende“ (Hoon), der Ursprung von allem.</li>
+                </ul>
               </div>
+
+              {/* Category B: Eigenschaften */}
+              <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
+                <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">B. Göttliche Eigenschaften</h4>
+                <ul className="text-sm space-y-3 text-slate-700">
+                  <li><strong>Ewigkeit:</strong> Er hat keinen Anfang (Joh 1,1; Micha 5,1).</li>
+                  <li><strong>Allmacht:</strong> <em>„...der Allmächtige“</em> (Offb 1,8).</li>
+                  <li><strong>Allwissenheit:</strong> Er wusste alles (Joh 18,4).</li>
+                  <li><strong>Unwandelbarkeit:</strong> Er bleibt ewig derselbe (Hebr 1,12; 13,8).</li>
+                </ul>
+              </div>
+
+              {/* Category C: Handlungen */}
+              <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
+                <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">C. Göttliche Handlungen</h4>
+                <ul className="text-sm space-y-3 text-slate-700">
+                  <li><strong>Schöpfung:</strong> <em>„Alles wurde durch dasselbe erschaffen“</em> (Joh 1,3; Kol 1,16).</li>
+                  <li><strong>Erhaltung:</strong> Er trägt das Universum (Hebr 1,3; Kol 1,17).</li>
+                  <li><strong>Sündenvergebung:</strong> Er vergibt Sünden, was allein Gott vorbehalten ist (Lukas 5).</li>
+                  <li><strong>Gericht:</strong> Er wird die Welt richten (Joh 5; Apg 17,31).</li>
+                </ul>
+              </div>
+
+              {/* Category D: Anbetung */}
+              <div className="bg-white p-6 rounded-xl border-t-4 border-amber-500 shadow-md">
+                <h4 className="font-bold text-slate-900 mb-3 uppercase tracking-wider text-xs">D. Annahme von Anbetung</h4>
+                <div className="text-sm text-slate-700 space-y-3">
+                  <p>Jesus weist Anbetung niemals zurück. Thomas bekennt: <em>„Mein Herr und mein Gott!“</em> (Joh 20,28), und Jesus preist seinen Glauben.</p>
+                  <p>Im Himmel beten Millionen Engel und die ganze Schöpfung das Lamm an (Offb 5,8-14).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* 1.3 Gott der Heilige Geist */}
+          <div className="bg-stone-50 p-8 rounded-2xl border border-stone-200">
+            <h3 className="text-xl font-bold mb-4 text-amber-800 flex items-center">
+              <Zap className="h-5 w-5 mr-2" /> 1.3 Gott der Heilige Geist
+            </h3>
+            <div className="text-slate-700 space-y-4">
+              <p>Der Heilige Geist wird als göttliche Person dargestellt, die in die Einheit der Gottheit eingebunden ist:</p>
+              <ul className="text-sm list-disc pl-5 space-y-2">
+                <li><strong>Autorität:</strong> Die Taufe erfolgt auf den <strong>Namen (Einzahl)</strong> des Vaters, des Sohnes und des Heiligen Geistes (Mt 28,19).</li>
+                <li><strong>Offenbarung:</strong> Wahre theologische Erkenntnis über die Einheit Gottes ist nur durch die Offenbarung des Heiligen Geistes möglich.</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* 1.4 Die Einheit (Trinitarische Formeln) */}
+          <div className="bg-slate-900 text-white p-8 rounded-2xl shadow-xl">
+            <h3 className="text-xl font-bold mb-4 flex items-center text-amber-500">
+              <Shield className="h-5 w-5 mr-2" /> 1.4 Die Einheit (Trinitarische Formeln)
+            </h3>
+            <div className="space-y-4 text-stone-300">
+              <p><strong>Granville Sharp’s Rule:</strong> Diese griechische Grammatikregel beweist, dass Ausdrücke wie <em>„unser großer Gott und Heiland Jesus Christus“</em> (Titus 2,13) sich auf eine einzige Person beziehen.</p>
+              <p><strong>Jüdischer Kontext:</strong> Sogar in der jüdischen Literatur (Zohar) finden sich Andeutungen der Trinität, wo drei Namen Gottes als eine Einheit verstanden werden.</p>
             </div>
           </div>
         </div>
@@ -81,7 +127,7 @@ const SystematicAnalysis: React.FC = () => {
       {/* 2. Die Erfüllung messianischer Prophezeiungen */}
       <section className="space-y-8">
         <div className="flex items-center space-x-4 mb-4">
-          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold">2</span>
+          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">2</span>
           <h2 className="text-3xl font-serif font-bold text-slate-900">Die Erfüllung messianischer Prophezeiungen</h2>
         </div>
         <div className="bg-amber-50 border border-amber-200 rounded-2xl p-8">
@@ -98,10 +144,10 @@ const SystematicAnalysis: React.FC = () => {
         </div>
       </section>
 
-      {/* 3. Belege für die Glaubwürdigkeit der Bibel (Detailed expansion) */}
+      {/* 3. Belege für die Glaubwürdigkeit der Bibel */}
       <section className="space-y-12">
         <div className="flex items-center space-x-4 mb-6">
-          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold">3</span>
+          <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">3</span>
           <h2 className="text-3xl font-serif font-bold text-slate-900">Belege für die Glaubwürdigkeit der Bibel</h2>
         </div>
 
@@ -114,11 +160,11 @@ const SystematicAnalysis: React.FC = () => {
           {/* 3.1 Ehrlichkeit */}
           <div className="space-y-6">
             <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center border-b border-stone-200 pb-2">
-              <Shield className="h-6 w-6 mr-3" /> 1. Ehrlichkeit & Charakter der Berichte
+              <Anchor className="h-6 w-6 mr-3" /> 1. Ehrlichkeit & Charakter der Berichte
             </h3>
             <div className="bg-white p-6 md:p-8 rounded-xl border border-stone-200 shadow-sm space-y-4 text-slate-700">
               <p>• <strong>Keine Heroisierung:</strong> Die Bibel berichtet schonungslos über die Sünden ihrer größten Leiter (Davids Ehebruch, Moses Zorn, Petrus' Verleugnung). Antike Texte dienten meist der Propaganda; die Bibel dient der Wahrheit.</p>
-              <p>• <strong>Warnung vor Veränderung:</strong> Der Text selbst verbietet streng jede Hinzufügung oder Weglassung (Offb 22,18-19), was den Überlieferungsprozess ethisch band.</p>
+              <p>• <strong>Warnung vor Veränderung:</strong> Der Text selbst verbietet streng jede Hinzufügung oder Weglassung (Offb 22,18-19).</p>
             </div>
           </div>
 
@@ -128,15 +174,15 @@ const SystematicAnalysis: React.FC = () => {
               <Target className="h-6 w-6 mr-3" /> 2. Thematische & Mathematische Einheit
             </h3>
             <div className="bg-white p-6 md:p-8 rounded-xl border border-stone-200 shadow-sm space-y-4 text-slate-700">
-              <p>Die Bibel ist kein Buch, sondern eine Bibliothek von 66 Büchern, geschrieben in 3 Sprachen auf 3 Kontinenten. Dennoch ist sie ein harmonisches Ganzes:</p>
+              <p>Die Bibel ist ein harmonisches Ganzes von 66 Büchern:</p>
               <ul className="list-disc pl-6 space-y-3">
-                <li><strong>Typologie:</strong> Alttestamentliche Strukturen (wie die Stiftshütte) sind mathematisch-geometrische Schattenbilder auf die Person Jesu Christi.</li>
-                <li><strong>Statistische Evidenz:</strong> Peter Stoner berechnete, dass die Wahrscheinlichkeit für die Erfüllung von nur 8 Prophetien 1 zu 10<sup>17</sup> beträgt. Dies entspricht der Fläche von Texas, bedeckt mit Silberdollarn (60cm hoch), wobei man blind den einen markierten Dollar finden müsste.</li>
+                <li><strong>Typologie:</strong> Alttestamentliche Strukturen (wie die Stiftshütte) sind geometrische Schattenbilder auf die Person Jesu Christi.</li>
+                <li><strong>Statistische Evidenz:</strong> Die Wahrscheinlichkeit für die Erfüllung von nur 8 Prophetien beträgt 1 zu 10<sup>17</sup>.</li>
               </ul>
             </div>
           </div>
 
-          {/* 3.3 Historische Verankerung - MAJOR EXPANSION */}
+          {/* 3.3 Historische Verankerung & Qumran */}
           <div className="space-y-6">
             <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center border-b border-stone-200 pb-2">
               <Map className="h-6 w-6 mr-3" /> 3. Historische Verankerung & Qumran-Funde
@@ -147,9 +193,8 @@ const SystematicAnalysis: React.FC = () => {
                   <Landmark className="h-4 w-4 mr-2 text-amber-600" /> Die Qumran-Revolution (1947)
                 </h4>
                 <div className="text-sm space-y-3 text-slate-700 leading-relaxed">
-                  <p>Vor 1947 stammten unsere ältesten hebräischen Manuskripte aus dem 10. Jahrhundert n. Chr. Die Funde von Qumran (Totes Meer) lieferten Texte von ca. 125 v. Chr.</p>
-                  <p><strong>Die Jesaja-Rolle (1QIsa):</strong> Diese fast 7,5 Meter lange Rolle überbrückt eine Lücke von 1000 Jahren Überlieferung. Das Ergebnis: Der Text ist zu <strong>95% wortwörtlich identisch</strong>. Die 5% Abweichung betreffen lediglich Rechtschreibung und Grammatik – keine einzige Lehre wurde verändert.</p>
-                  <p>Dies beweist die übernatürliche Genauigkeit der jüdischen Schreiber (Sopherim), die sogar Buchstaben zählten, um Fehler auszuschließen.</p>
+                  <p><strong>Die Jesaja-Rolle (1QIsa):</strong> Überbrückt eine Lücke von 1000 Jahren Überlieferung. Der Text ist zu <strong>95% wortwörtlich identisch</strong> mit modernen Ausgaben.</p>
+                  <p>Die Genauigkeit der jüdischen Schreiber (Sopherim), die Buchstaben zählten, wird hier eindrücklich bestätigt.</p>
                 </div>
               </div>
               <div className="bg-stone-50 p-6 rounded-xl border border-stone-200 space-y-4 shadow-inner">
@@ -157,9 +202,9 @@ const SystematicAnalysis: React.FC = () => {
                   <Scroll className="h-4 w-4 mr-2 text-amber-600" /> Archäologische Bestätigung
                 </h4>
                 <div className="text-sm space-y-3 text-slate-700 leading-relaxed">
-                  <p><strong>Die Merenptah-Stele:</strong> Älteste außerbiblische Erwähnung Israels (1210 v. Chr.) als eigenständiges Volk.</p>
-                  <p><strong>Prisma von Sanherib:</strong> Der assyrische König beschreibt die Belagerung Jerusalems (701 v. Chr.) und erwähnt König Hiskia. Er behauptet jedoch nicht, die Stadt eingenommen zu haben – eine exakte Übereinstimmung mit dem biblischen Bericht der Rettung.</p>
-                  <p><strong>Jericho-Mauern:</strong> Die Ausgrabungen von Bryant Wood zeigen, dass die Mauern „nach außen“ kollabierten (einzigartig!) und dass die Stadt im Frühling (Erntezeit) verbrannt wurde – genau wie Josua 6 berichtet.</p>
+                  <p><strong>Merenptah-Stele:</strong> Älteste Erwähnung Israels (1210 v. Chr.).</p>
+                  <p><strong>Prisma von Sanherib:</strong> Bestätigt König Hiskia und die Belagerung Jerusalems (701 v. Chr.).</p>
+                  <p><strong>Jericho:</strong> Wood's Ausgrabungen bestätigen den Kollaps der Mauern exakt nach biblischem Bericht.</p>
                 </div>
               </div>
             </div>
@@ -171,9 +216,8 @@ const SystematicAnalysis: React.FC = () => {
               <Eye className="h-6 w-6 mr-3" /> 4. Unmittelbare Augenzeugenschaft
             </h3>
             <div className="bg-white p-6 md:p-8 rounded-xl border border-stone-200 shadow-sm space-y-4 text-slate-700">
-              <p>• <strong>Historische Zeugen:</strong> Nicht-christliche Historiker wie <strong>Josephus Flavius</strong> und <strong>Tacitus</strong> bestätigen die Hinrichtung Jesu unter Pontius Pilatus und die Existenz einer wachsenden Gemeinde, die an seine Auferstehung glaubte.</p>
-              <p>• <strong>Das Zeugnis des Blutes:</strong> Fast alle Apostel starben einen gewaltsamen Tod für ihr Zeugnis. Menschen sterben für das, was sie für wahr halten, aber niemand stirbt für eine Lüge, von der er weiß, dass sie erfunden ist.</p>
-              <p>• <strong>Lukas' Detailgenauigkeit:</strong> Der Archäologe Sir William Ramsay, der ursprünglich skeptisch war, bezeichnete Lukas nach umfangreichen Forschungen als einen „Historiker ersten Ranges“.</p>
+              <p>• <strong>Historische Zeugen:</strong> Josephus Flavius und Tacitus bestätigen die Kreuzigung Christi.</p>
+              <p>• <strong>Das Zeugnis des Blutes:</strong> Die Apostel starben für ihr Zeugnis. Niemand stirbt für eine bewusste Lüge.</p>
             </div>
           </div>
 
@@ -185,7 +229,7 @@ const SystematicAnalysis: React.FC = () => {
         <div className="absolute top-0 right-0 w-64 h-64 bg-amber-600/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
         <h2 className="text-3xl font-serif font-bold mb-6 italic">Glaube basiert auf Evidenz</h2>
         <p className="text-stone-300 text-lg max-w-3xl mx-auto leading-relaxed">
-          Die Einheit von biblischer Offenbarung, historischer Archäologie und erfüllter Prophetie bildet eine Beweiskette, die den christlichen Glauben aus dem Bereich des Mythos in den Bereich der historisch belegten Wahrheit hebt. Gott hat sich in seinem Wort und in seinem Sohn Jesus Christus unmissverständlich offenbart.
+          Die Einheit von biblischer Offenbarung, historischer Archäologie und erfüllter Prophetie bezeugt: Christus ist Gott.
         </p>
       </section>
 
