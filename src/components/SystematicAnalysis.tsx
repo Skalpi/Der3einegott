@@ -1,5 +1,5 @@
 import React from 'react';
-import { Info, CheckCircle, ExternalLink, Scroll, History, Target, Eye, BookOpen, Map, Landmark, Zap, Shield, Star, Crown, Anchor, UserCheck, MessageSquare } from 'lucide-react';
+import { Info, ExternalLink, Scroll, Map, Landmark, Zap, Shield, Star, Crown, UserCheck, MessageSquare, Quote } from 'lucide-react';
 
 const SystematicAnalysis: React.FC = () => {
   return (
@@ -40,13 +40,13 @@ const SystematicAnalysis: React.FC = () => {
                   <li><strong>Vaterschaft:</strong> Jesaja 63 offenbart den HERRN bereits im AT: <em>„Denn du bist unser Vater...“</em> (Schlachter 2000).</li>
                 </ul>
               </div>
-              <div className="bg-white p-4 rounded-lg border border-stone-100 text-sm italic italic">
+              <div className="bg-white p-4 rounded-lg border border-stone-100 text-sm italic">
                 „Von dem Sohn aber [spricht der Vater]: Dein Thron, o Gott, währt von Ewigkeit zu Ewigkeit...“ (Hebräer 1,8, Schlachter 2000)
               </div>
             </div>
           </div>
 
-          {/* 1.2 Gott der Sohn */}
+          {/* 1.2 Gott der Sohn - UNVERÄNDERT */}
           <div className="space-y-6">
             <h3 className="text-2xl font-serif font-bold text-slate-900 flex items-center">
               <Crown className="h-6 w-6 mr-3 text-amber-600" /> 1.2 Gott der Sohn (Jesus Christus)
@@ -69,7 +69,7 @@ const SystematicAnalysis: React.FC = () => {
             </div>
           </div>
 
-          {/* 1.3 Gott der Heilige Geist - DEEP DIVE EXPANSION */}
+          {/* 1.3 Gott der Heilige Geist - AKTUALISIERT & ERWEITERT */}
           <div className="bg-stone-50 p-8 rounded-2xl border border-stone-200 space-y-8">
             <div className="flex items-center justify-between border-b border-stone-200 pb-4">
               <h3 className="text-2xl font-serif font-bold text-amber-800 flex items-center">
@@ -79,67 +79,65 @@ const SystematicAnalysis: React.FC = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-10">
-              {/* Personalität */}
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <h4 className="font-bold text-slate-900 flex items-center">
                   <UserCheck className="h-5 w-5 mr-2 text-amber-600" /> Beweis der Personalität
                 </h4>
-                <p className="text-sm text-slate-700 leading-relaxed">
-                  Entgegen irrigen Lehren ist der Geist keine "unpersönliche Kraft". Die Bibel schreibt ihm persönliche Merkmale zu:
-                </p>
-                <ul className="text-sm space-y-3 text-slate-700">
-                  <li><strong>Intellekt:</strong> Er "erforscht" und "weiß" (1. Kor 2,10-11).</li>
-                  <li><strong>Wille:</strong> Er teilt Gaben aus, "wie er will" (1. Kor 12,11).</li>
-                  <li><strong>Emotion:</strong> Er kann "betrübt" werden (Eph 4,30).</li>
-                  <li><strong>Grammatikalische Besonderheit:</strong> In Joh 16,13 wird für den Geist (gr. <em>pneuma</em>, Neutrum) das maskuline Pronomen <em>ekeinos</em> ("Er") verwendet, um seine Personalität zu betonen.</li>
-                </ul>
+                <div className="text-sm text-slate-700 leading-relaxed space-y-4">
+                  <p>
+                    Der Heilige Geist ist keine „Kraft“ oder „Energie“, sondern eine <strong>Person</strong>. Dies wird durch seine Eigenschaften und die biblische Grammatik belegt:
+                  </p>
+                  <ul className="space-y-3">
+                    <li><span className="font-bold text-amber-800">Souveräner Wille:</span> Er teilt Gaben aus, „wie Er will“ (1. Kor 12,11).</li>
+                    <li><span className="font-bold text-amber-800">Emotionen:</span> Er kann „betrübt“ werden (Eph 4,30). Eine Kraft kennt keinen Schmerz.</li>
+                    <li><span className="font-bold text-amber-800">Handlungsfähigkeit:</span> Er lehrt, erinnert (Joh 14,26), bezeugt (Joh 15,26) und spricht (Apg 13,2).</li>
+                    <li><span className="font-bold text-amber-800">Grammatik (Joh 16,13):</span> Jesus verwendet für den Geist (gr. <em>pneuma</em>, Neutrum) das maskuline Pronomen <em>ekeinos</em> („Er“), was seine Personalität unterstreicht.</li>
+                  </ul>
+                </div>
               </div>
 
-              {/* Identität mit Jahweh */}
-              <div className="space-y-4">
+              <div className="space-y-6">
                 <h4 className="font-bold text-slate-900 flex items-center">
                   <MessageSquare className="h-5 w-5 mr-2 text-amber-600" /> Identität mit JAHWE
                 </h4>
-                <p className="text-sm text-slate-700 leading-relaxed">
-                  Das Neue Testament identifiziert den Heiligen Geist direkt mit dem JAHWE des Alten Testaments:
-                </p>
-                <div className="bg-white p-4 rounded-lg border border-stone-200 space-y-3">
-                  <div className="text-xs">
-                    <span className="font-bold">AT (2. Mose 17,7):</span> Israel versuchte <span className="text-amber-700 font-bold">JAHWE</span>.
-                  </div>
-                  <div className="text-xs">
-                    <span className="font-bold">NT (Hebr 3,7-9):</span> Der <span className="text-amber-700 font-bold">Heilige Geist</span> sagt: "...wo eure Väter mich versuchten."
-                  </div>
-                  <hr />
-                  <div className="text-xs">
-                    <span className="font-bold">AT (Jer 31,33):</span> <span className="text-amber-700 font-bold">JAHWE</span> verheißt den neuen Bund.
-                  </div>
-                  <div className="text-xs">
-                    <span className="font-bold">NT (Hebr 10,15):</span> Das bezeugt uns aber auch der <span className="text-amber-700 font-bold">Heilige Geist</span>.
+                <div className="text-sm text-slate-700 leading-relaxed space-y-4">
+                  <p>Das Neue Testament offenbart, dass der Heilige Geist derjenige ist, der im Alten Testament als <strong>JAHWE</strong> sprach:</p>
+                  <div className="bg-white p-5 rounded-xl border border-stone-200 space-y-4 shadow-sm">
+                    <div className="border-l-4 border-amber-600 pl-3">
+                      <div className="text-[10px] text-slate-500 font-bold uppercase">Beleg A: Hebräer 3,7-9</div>
+                      <p className="italic text-xs mt-1">Der Heilige Geist sagt: „...wo eure Väter <strong>mich</strong> versuchten“ (Bezug auf JAHWE in 2. Mose 17,7).</p>
+                    </div>
+                    <div className="border-l-4 border-amber-600 pl-3">
+                      <div className="text-[10px] text-slate-500 font-bold uppercase">Beleg B: Hebräer 10,15-17</div>
+                      <p className="italic text-xs mt-1">Der Geist bezeugt: „Dies ist der Bund...“ (Zitierung der Verheißung JAHWES aus Jeremia 31).</p>
+                    </div>
+                    <div className="border-l-4 border-amber-600 pl-3">
+                      <div className="text-[10px] text-slate-500 font-bold uppercase">Beleg C: Apostelgeschichte 28,25</div>
+                      <p className="italic text-xs mt-1">Paulus identifiziert die Stimme JAHWES aus Jesaja 6 mit dem Heiligen Geist.</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Göttliche Handlungen */}
             <div className="bg-white p-6 rounded-xl border border-stone-200">
-              <h4 className="font-bold text-slate-900 mb-4 text-center uppercase tracking-widest text-xs">Göttliche Handlungen & Attribute</h4>
+              <h4 className="font-bold text-slate-900 mb-4 text-center uppercase tracking-widest text-xs">Göttliche Attribute des Geistes</h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-                <div className="p-3 bg-stone-50 rounded-lg">
-                  <div className="font-bold text-amber-800 text-sm">Schöpfung</div>
-                  <div className="text-[10px] text-slate-500 italic">Hiob 33,4</div>
-                </div>
-                <div className="p-3 bg-stone-50 rounded-lg">
+                <div className="p-3 bg-stone-50 rounded-lg border border-stone-100">
                   <div className="font-bold text-amber-800 text-sm">Ewigkeit</div>
                   <div className="text-[10px] text-slate-500 italic">Hebr 9,14</div>
                 </div>
-                <div className="p-3 bg-stone-50 rounded-lg">
-                  <div className="font-bold text-amber-800 text-sm">Allwissenheit</div>
-                  <div className="text-[10px] text-slate-500 italic">1. Kor 2,10</div>
-                </div>
-                <div className="p-3 bg-stone-50 rounded-lg">
+                <div className="p-3 bg-stone-50 rounded-lg border border-stone-100">
                   <div className="font-bold text-amber-800 text-sm">Allgegenwart</div>
-                  <div className="text-[10px] text-slate-500 italic">Ps 139,7</div>
+                  <div className="text-[10px] text-slate-500 italic">Ps 139,7-10</div>
+                </div>
+                <div className="p-3 bg-stone-50 rounded-lg border border-stone-100">
+                  <div className="font-bold text-amber-800 text-sm">Allwissenheit</div>
+                  <div className="text-[10px] text-slate-500 italic">1. Kor 2,10-11</div>
+                </div>
+                <div className="p-3 bg-stone-50 rounded-lg border border-stone-100">
+                  <div className="font-bold text-amber-800 text-sm">Schöpferkraft</div>
+                  <div className="text-[10px] text-slate-500 italic">Hiob 33,4</div>
                 </div>
               </div>
             </div>
@@ -151,14 +149,14 @@ const SystematicAnalysis: React.FC = () => {
               <Shield className="h-5 w-5 mr-2" /> 1.4 Die Einheit (Trinitarische Formeln)
             </h3>
             <div className="space-y-4 text-stone-300">
-              <p><strong>Matthäus 28,19:</strong> Die Taufe erfolgt auf den <strong>Namen (Einzahl)</strong> des Vaters, des Sohnes und des Heiligen Geistes. Ein Name für drei Personen.</p>
+              <p><strong>Matthäus 28,19:</strong> Die Taufe erfolgt auf den <strong>Namen (Einzahl)</strong> des Vaters, des Sohnes und des Heiligen Geistes.</p>
               <p><strong>Granville Sharp’s Rule:</strong> Grammatikalischer Beweis aus Titus 2,13 für die Identität von Gott und Retter in Jesus Christus.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 2. Prophetien Section - Unchanged */}
+      {/* 2. Prophetien Section - UNVERÄNDERT */}
       <section className="space-y-8">
         <div className="flex items-center space-x-4 mb-4">
           <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">2</span>
@@ -175,7 +173,7 @@ const SystematicAnalysis: React.FC = () => {
         </div>
       </section>
 
-      {/* 3. Historische Verankerung - Unchanged */}
+      {/* 3. Historische Verankerung - UNVERÄNDERT */}
       <section className="space-y-12">
         <div className="flex items-center space-x-4 mb-6">
           <span className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-900 text-white font-bold shadow-lg">3</span>

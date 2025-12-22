@@ -69,7 +69,6 @@ export const trinityData: TheologicalProof[] = [
       text: 'Alles ist durch dasselbe entstanden; und ohne dasselbe ist auch nicht eines entstanden, was entstanden ist.',
       source: 'Schlachter 2000'
     },
-    // Fix: Added missing required commentary property
     commentary: `
       <p class="mb-4">Jesus Christus ist nicht nur der Erlöser, sondern auch der Schöpfer. Alles, was existiert, verdankt sein Dasein Ihm. Wenn Jesus der Schöpfer von allem ist, kann Er selbst kein Teil der Schöpfung sein.</p>
       <p>Dieser Vers betont die absolute Exklusivität: Ohne Ihn ist <em>nichts</em> entstanden. Dies untermauert seine göttliche Natur, da nur Gott aus dem Nichts erschaffen kann (Creatio ex nihilo).</p>
@@ -83,12 +82,57 @@ export const trinityData: TheologicalProof[] = [
     shortDescription: 'In Apostelgeschichte 5 setzt Petrus den Heiligen Geist direkt mit Gott gleich.',
     primaryVerse: {
       verse: 'Apostelgeschichte 5,3-4',
-      text: 'Petrus aber sprach: Ananias, warum hat der Satan dein hart erfüllt, dass du den Heiligen Geist belügst... Du hast nicht Menschen belogen, sondern Gott!',
+      text: 'Petrus aber sprach: Ananias, warum hat der Satan dein Herz erfüllt, dass du den Heiligen Geist belügst... Du hast nicht Menschen belogen, sondern Gott!',
       source: 'Schlachter 2000'
     },
     commentary: `
       <p class="mb-4">Petrus verwendet hier eine parallele Struktur: Im Vers 3 spricht er davon, den <strong>Heiligen Geist</strong> zu belügen. In Vers 4 schlussfolgert er: "Du hast nicht Menschen belogen, sondern <strong>Gott</strong>."</p>
       <p>Dies ist ein direkter Beweis für die volle Gottheit des Geistes. Man kann keine unpersönliche Kraft belügen, sondern nur eine Person, die Gott selbst ist.</p>
+    `,
+    authorOrSource: 'Roger Liebi / Schlachter 2000'
+  },
+  {
+    id: 'geist-jahwe-hebr3',
+    title: 'Der Geist ist JAHWE (Hebräer 3)',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Der Heilige Geist wird als derjenige identifiziert, der im Alten Testament als JAHWE zu Israel sprach.',
+    primaryVerse: {
+      verse: 'Hebräer 3,7-9',
+      text: 'Darum, wie der Heilige Geist spricht: „Heute, wenn ihr seine Stimme hört, so verstockt eure Herzen nicht... wo eure Väter mich versuchten...“',
+      source: 'Schlachter 2000'
+    },
+    contextVerses: [
+      {
+        verse: '2. Mose 17,7',
+        text: '...weil sie den HERRN (JAHWE) versuchten und sprachen: Ist der HERR unter uns oder nicht?',
+        source: 'Schlachter 2000'
+      }
+    ],
+    commentary: `
+      <p class="mb-4">In Hebräer 3 zitiert der Autor Psalm 95 und schreibt die Worte direkt dem <strong>Heiligen Geist</strong> zu ("wie der Heilige Geist spricht"). Im Alten Testament ist es jedoch eindeutig <strong>JAHWE</strong>, den das Volk Israel versuchte.</p>
+      <p>Diese Identität zeigt, dass der Heilige Geist nicht nur ein Bote Gottes ist, sondern Gott selbst, der souverän spricht und handelt.</p>
+    `,
+    authorOrSource: 'Roger Liebi / Schlachter 2000'
+  },
+  {
+    id: 'geist-spricht-apg28',
+    title: 'Der Geist sprach durch Jesaja',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Paulus bestätigt, dass die Worte JAHWES in Jesaja 6 Worte des Heiligen Geistes waren.',
+    primaryVerse: {
+      verse: 'Apostelgeschichte 28,25',
+      text: 'Treffend hat der Heilige Geist durch den Propheten Jesaja zu unseren Vätern gesprochen...',
+      source: 'Schlachter 2000'
+    },
+    contextVerses: [
+      {
+        verse: 'Jesaja 6,8',
+        text: 'Und ich hörte die Stimme des Herrn, der sprach: Wen soll ich senden...?',
+        source: 'Schlachter 2000'
+      }
+    ],
+    commentary: `
+      <p class="mb-4">In Jesaja 6 sieht der Prophet die Herrlichkeit JAHWES und hört IHN sprechen. In Apostelgeschichte 28 sagt Paulus jedoch, dass es der <strong>Heilige Geist</strong> war, der hier sprach. Dies belegt die volle göttliche Autorität und Identität des Geistes innerhalb der Trinität.</p>
     `,
     authorOrSource: 'Roger Liebi / Schlachter 2000'
   },
@@ -99,11 +143,26 @@ export const trinityData: TheologicalProof[] = [
     shortDescription: 'Der Heilige Geist teilt das göttliche Attribut der Ewigkeit.',
     primaryVerse: {
       verse: 'Hebräer 9,14',
-      text: '...wieviel mehr wird das Blut des Christus, der sich selbst durch den ewigen Geist als ein makelloses Opfer Gott dargebracht hat, euer Gewissen reinigen...',
+      text: '...wieviel mehr wird das Blut des Christus, der sich selbst durch den ewigen Geist als ein makelloses Opfer Gott dargebracht hat...',
       source: 'Schlachter 2000'
     },
     commentary: `
-      <p class="mb-4">Hier wird der Heilige Geist explizit als der "ewige Geist" bezeichnet. Ewigkeit ist ein exklusives Attribut Gottes. Alles Geschaffene hat einen Anfang, nur Gott ist von Ewigkeit zu Ewigkeit.</p>
+      <p class="mb-4">Hier wird der Heilige Geist explizit als der "ewige Geist" bezeichnet. Ewigkeit ist ein exklusives Attribut Gottes.</p>
+    `,
+    authorOrSource: 'Schlachter 2000'
+  },
+  {
+    id: 'geist-herr-2kor3',
+    title: 'Der Herr ist der Geist',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Paulus identifiziert den Heiligen Geist direkt mit dem Herrn (Adonai/Jahwe).',
+    primaryVerse: {
+      verse: '2. Korinther 3,17',
+      text: 'Der Herr aber ist der Geist; wo aber der Geist des Herrn ist, da ist Freiheit.',
+      source: 'Schlachter 2000'
+    },
+    commentary: `
+      <p class="mb-4">Paulus setzt hier "den Herrn" (Kýrios) direkt mit "dem Geist" gleich. Im Kontext des Alten Testaments ist Kýrios die Übersetzung für JAHWE.</p>
     `,
     authorOrSource: 'Schlachter 2000'
   },
@@ -118,7 +177,7 @@ export const trinityData: TheologicalProof[] = [
       source: 'Schlachter 2000'
     },
     commentary: `
-      <p class="mb-4">Der Psalmist stellt fest, dass der Geist Gottes überall präsent ist – im Himmel, im Totenreich und an den äußersten Enden des Meeres. Allgegenwart ist eine Eigenschaft, die nur Gott allein zukommt.</p>
+      <p class="mb-4">Der Psalmist stellt fest, dass der Geist Gottes überall präsent ist. Allgegenwart ist eine Eigenschaft, die nur Gott allein zukommt.</p>
     `,
     authorOrSource: 'Roger Liebi / Schlachter 2000'
   },
@@ -129,11 +188,56 @@ export const trinityData: TheologicalProof[] = [
     shortDescription: 'Der Geist erforscht die Tiefen Gottes, was seine Allwissenheit belegt.',
     primaryVerse: {
       verse: '1. Korinther 2,10-11',
-      text: 'Uns aber hat es Gott geoffenbart durch seinen Geist; denn der Geist erforscht alles, auch die Tiefen Gottes... so weiß auch niemand, was in Gott ist, als nur der Geist Gottes.',
+      text: 'Uns aber hat es Gott geoffenbart durch seinen Geist; denn der Geist erforscht alles, auch die Tiefen Gottes...',
       source: 'Schlachter 2000'
     },
     commentary: `
-      <p class="mb-4">Der Geist besitzt vollkommenes Wissen über das Wesen Gottes. Er "erforscht" nicht im Sinne von "lernen", sondern im Sinne von "durchdringen". Nur ein göttliches Wesen kann die unendlichen Tiefen Gottes vollkommen kennen.</p>
+      <p class="mb-4">Nur ein göttliches Wesen kann die unendlichen Tiefen Gottes vollkommen kennen und durchdringen.</p>
+    `,
+    authorOrSource: 'Roger Liebi / Schlachter 2000'
+  },
+  {
+    id: 'geist-wille-1kor12',
+    title: 'Der Wille des Heiligen Geistes',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Der Geist handelt souverän and teilt Gaben nach seinem eigenen Willen aus.',
+    primaryVerse: {
+      verse: '1. Korinther 12,11',
+      text: 'Dies alles aber wirkt ein und derselbe Geist, der jedem persönlich zuteilt, wie er will.',
+      source: 'Schlachter 2000'
+    },
+    commentary: `
+      <p class="mb-4">Ein Wille ist ein klares Merkmal einer Person. Der Geist entscheidet selbstständig über die Verteilung geistlicher Gaben.</p>
+    `,
+    authorOrSource: 'Schlachter 2000'
+  },
+  {
+    id: 'geist-betrueben-eph4',
+    title: 'Die Emotionen des Geistes',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Der Heilige Geist kann betrübt werden, was seine Personalität beweist.',
+    primaryVerse: {
+      verse: 'Epheser 4,30',
+      text: 'Und betrübt nicht den Heiligen Geist Gottes, mit dem ihr versiegelt worden seid...',
+      source: 'Schlachter 2000'
+    },
+    commentary: `
+      <p class="mb-4">Nur eine Person mit Gefühlen kann Schmerz oder Betrübnis empfinden. Eine Kraft kann man nicht betrüben.</p>
+    `,
+    authorOrSource: 'Schlachter 2000'
+  },
+  {
+    id: 'geist-personalitaet-joh16',
+    title: 'Das maskuline "Er" (Ekeinos)',
+    category: 'Der Heilige Geist ist Gott',
+    shortDescription: 'Grammatikalische Besonderheit in Johannes 16,13 bezeugt die Personalität.',
+    primaryVerse: {
+      verse: 'Johannes 16,13',
+      text: 'Wenn aber jener kommt, der Geist der Wahrheit, so wird er euch in die ganze Wahrheit leiten...',
+      source: 'Schlachter 2000'
+    },
+    commentary: `
+      <p class="mb-4">Im Griechischen wird für den Geist (Neutrum) das maskuline Pronomen verwendet, um Ihn als Person ("Er") zu kennzeichnen.</p>
     `,
     authorOrSource: 'Roger Liebi / Schlachter 2000'
   },
@@ -141,21 +245,15 @@ export const trinityData: TheologicalProof[] = [
     id: 'geist-der-schoepfer-hiob33',
     title: 'Der Geist als Schöpfer',
     category: 'Der Heilige Geist ist Gott',
-    shortDescription: 'Der Heilige Geist ist aktiv an der Schöpfung und Erhaltung des Lebens beteiligt.',
+    shortDescription: 'Der Heilige Geist ist aktiv an der Schöpfung beteiligt.',
     primaryVerse: {
       verse: 'Hiob 33,4',
       text: 'Der Geist Gottes hat mich gemacht, und der Odem des Allmächtigen hat mir das Leben gegeben.',
       source: 'Schlachter 2000'
     },
-    contextVerses: [
-      {
-        verse: '1. Mose 1,2',
-        text: '...und der Geist Gottes schwebte über den Wassern.',
-        source: 'Schlachter 2000'
-      }
-    ],
+    // Added missing commentary to fix TypeScript error
     commentary: `
-      <p class="mb-4">Die Schöpfung ist ein gemeinsames Werk des dreieinigen Gottes. Wie der Vater plant und der Sohn ausführt, so belebt und vollendet der Heilige Geist das Geschaffene.</p>
+      <p class="mb-4">Elihu bezeugt hier, dass sein Leben das direkte Resultat des schöpferischen Handelns des Geistes Gottes ist. Schöpfung ist ein exklusives Werk Gottes.</p>
     `,
     authorOrSource: 'Schlachter 2000'
   }
