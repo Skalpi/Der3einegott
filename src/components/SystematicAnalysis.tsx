@@ -1,5 +1,5 @@
 import React from 'react';
-import { Info, ExternalLink, Scroll, Map, Landmark, Zap, Shield, Star, Crown, CheckCircle } from 'lucide-react';
+import { Info, ExternalLink, Zap, Star, Crown, CheckCircle } from 'lucide-react';
 
 const SystematicAnalysis: React.FC = () => {
   return (
@@ -53,7 +53,7 @@ const SystematicAnalysis: React.FC = () => {
           </div>
         </div>
 
-        {/* 1.2 Gott der Sohn - EXACT IMAGE 2 MATCH */}
+        {/* 1.2 Gott der Sohn */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3">
             <Crown className="h-7 w-7 text-amber-600" />
@@ -98,7 +98,7 @@ const SystematicAnalysis: React.FC = () => {
           </div>
         </div>
 
-        {/* 1.3 Gott der Heilige Geist - IMAGE 1 CONTENT, IMAGE 2 STYLE */}
+        {/* 1.3 Gott der Heilige Geist */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3">
             <Zap className="h-7 w-7 text-amber-600" />
@@ -177,7 +177,7 @@ const SystematicAnalysis: React.FC = () => {
         </div>
       </section>
 
-      {/* 3. Historische Verankerung - EXACT IMAGE 3 MATCH */}
+      {/* 3. Historische Verankerung */}
       <section className="space-y-12">
         <div className="flex items-center space-x-4 mb-6">
           <CheckCircle className="h-10 w-10 text-amber-800" />
