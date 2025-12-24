@@ -5,9 +5,19 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/christusistgott/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+    // Garantiert, dass alles in eine lokale Struktur gebündelt wird
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
   resolve: {
     alias: {
-      // Ensure we point to src explicitly if needed, but relative paths are preferred in code
       '@': '/src',
     },
   },
